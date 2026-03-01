@@ -1,16 +1,17 @@
 def palindrom(tekst):
+    
      
-     """
+    """
     Funkcja sprzawdza czy podany tekst jest palindromem.
     
     Argumenty:
-        tekst (str): Słowo do sprawdzenia.
+    tekst (str): Słowo do sprawdzenia.
         
     Zwraca:
-        bool: True jeśli tekst jest palindromem, False w przeciwnym razie.
+    bool: True jeśli tekst jest palindromem, False w przeciwnym razie.
     """
-     tekst = tekst.lower()
-     return tekst == tekst[::-1]
+    tekst = tekst.lower()
+    return tekst == tekst[::-1]
 
 print(palindrom("kajak")) 
 print(palindrom("nauka"))
